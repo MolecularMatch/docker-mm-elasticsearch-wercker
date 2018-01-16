@@ -1,4 +1,4 @@
-FROM elasticsearch:5
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.1.2
 
 ADD config/elasticsearch.yml /usr/share/elasticsearch/config/
 ADD config/run.sh /usr/bin/
