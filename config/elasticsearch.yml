@@ -1,3 +1,4 @@
+network.host: 0.0.0.0
 http.max_initial_line_length: 16kb
 indices.query.bool.max_clause_count: 10000
 discovery.type: single-node
