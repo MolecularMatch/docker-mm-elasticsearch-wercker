@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/usr/share/elasticsearch/bin/elasticsearch
+/usr/local/bin/docker-entrypoint.sh
